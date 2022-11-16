@@ -19,7 +19,7 @@ const Form = ({form,openform}) => {
     const sendData = async (e)=>{
         e.preventDefault();
         await handleSubmit();
-        router.reload(window.location.pathname);
+        // router.reload(window.location.pathname);
         e.target.reset();
     }
 
